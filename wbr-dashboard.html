@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WBR Command Center — Sample Report</title>
+<link rel="icon" href="data:image/png;base64,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" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --ink:#0B1220;
+  --ink-soft:#5B6472;
+  --paper:#F4F5F7;
+  --surface:#FFFFFF;
+  --line:#E3E6EB;
+  --line-strong:#CBD1DA;
+  --brand:#0A4C8C;
+  --brand-2:#1D6FB8;
+  --brand-soft:#EAF1FA;
+  --good:#0F7B4E;
+  --good-soft:#E7F5EE;
+  --warn:#B4650A;
+  --warn-soft:#FCF1E1;
+  --bad:#B3261E;
+  --bad-soft:#FBEAE9;
+  --violet:#6947C4;
+  --violet-soft:#F1ECFB;
+  --radius:12px;
+  --font-display:'Manrope',system-ui,sans-serif;
+  --font-body:'Inter',system-ui,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+
+*{ box-sizing:border-box; }
+
+html{ scroll-behavior:smooth; }
+
+body{
+  margin:0;
+  font-family:var(--font-body);
+  background:var(--paper);
+  color:var(--ink);
+  -webkit-font-smoothing:antialiased;
+}
+
+:focus-visible{
+  outline:2px solid var(--brand);
+  outline-offset:2px;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead{
+  background:var(--ink);
+  color:#fff;
+  padding:36px 24px 30px;
+  position:relative;
+  border-bottom:3px solid var(--brand-2);
+}
+
+.masthead-inner{
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.masthead-brand{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.masthead-brand img{
+  width:38px;
+  height:38px;
+  border-radius:8px;
+  background:#fff;
+  padding:3px;
+}
+
+.masthead-titles h1{
+  font-family:var(--font-display);
+  font-weight:800;
+  font-size:22px;
+  margin:0;
+  letter-spacing:-.01em;
+}
+
+.masthead-titles p{
+  margin:3px 0 0;
+  font-size:13px;
+  color:#B7C2D0;
+  font-weight:500;
+}
+
+.period-pill{
+  font-family:var(--font-mono);
+  font-size:12.5px;
+  font-weight:600;
+  letter-spacing:.02em;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.18);
+  color:#E7ECF3;
+  padding:8px 14px;
+  border-radius:999px;
+  white-space:nowrap;
+}
+
+/* ---------- Scorecard strip ---------- */
+
+.scorecard-strip{
+  max-width:1200px;
+  margin:-22px auto 0;
+  padding:0 24px;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:12px;
+  position:relative;
+  z-index:2;
+}
+
+@media (max-width:900px){
+  .scorecard-strip{ grid-template-columns:repeat(2,1fr); }
+}
+@media (max-width:480px){
+  .scorecard-strip{ grid-template-columns:repeat(2,1fr); gap:10px; }
+}
+
+.scorecard{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-top:3px solid var(--accent,var(--brand));
+  border-radius:10px;
+  padding:14px 16px;
+  box-shadow:0 1px 2px rgba(15,23,42,.04);
+}
+
+.scorecard .label{
+  font-size:10.5px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+
+.scorecard .value{
+  font-family:var(--font-mono);
+  font-weight:600;
+  font-size:24px;
+  margin-top:6px;
+  font-variant-numeric:tabular-nums;
+  color:var(--ink);
+}
+
+/* ---------- Layout ---------- */
+
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:34px 24px 20px;
+}
+
+.section-header{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px;
+  margin:38px 0 16px;
+}
+
+.section-header:first-child{ margin-top:0; }
+
+.section-title{
+  font-family:var(--font-display);
+  font-size:19px;
+  font-weight:800;
+  color:var(--ink);
+  margin:0;
+  letter-spacing:-.01em;
+}
+
+.section-sub{
+  font-size:12.5px;
+  color:var(--ink-soft);
+  font-family:var(--font-mono);
+}
+
+/* ---------- Notice tiles (Key Win / Productivity / Focus) ---------- */
+
+.notice-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:14px;
+}
+
+.notice{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:16px 18px;
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.notice .tag{
+  flex:0 0 auto;
+  font-family:var(--font-mono);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.05em;
+  padding:4px 8px;
+  border-radius:6px;
+  margin-top:1px;
+}
+
+.notice.good .tag{ background:var(--good-soft); color:var(--good); }
+.notice.warn .tag{ background:var(--warn-soft); color:var(--warn); }
+.notice.bad  .tag{ background:var(--bad-soft);  color:var(--bad); }
+
+.notice p{ margin:0; font-size:13.5px; line-height:1.55; color:#26303D; }
+.notice strong{ display:block; font-size:14px; font-family:var(--font-display); font-weight:700; margin-bottom:3px; color:var(--ink); }
+
+/* ---------- Card / checklist ---------- */
+
+.card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:20px 22px;
+}
+
+.card h3{
+  font-family:var(--font-display);
+  font-size:15px;
+  margin:0 0 12px;
+  font-weight:700;
+}
+
+.checklist{ list-style:none; margin:0; padding:0; display:grid; gap:9px; }
+.checklist li{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  font-size:13.5px;
+  color:#26303D;
+  line-height:1.5;
+}
+.checklist li::before{
+  content:"✓";
+  flex:0 0 auto;
+  width:18px; height:18px;
+  border-radius:5px;
+  background:var(--good-soft);
+  color:var(--good);
+  font-size:12px;
+  font-weight:700;
+  display:flex; align-items:center; justify-content:center;
+  margin-top:1px;
+}
+
+/* ---------- Segmented control ---------- */
+
+.segmented{
+  display:inline-flex;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:3px;
+  gap:2px;
+}
+
+.segmented button{
+  border:none;
+  background:transparent;
+  color:var(--ink-soft);
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:13px;
+  padding:8px 16px;
+  border-radius:7px;
+  cursor:pointer;
+  transition:background .15s ease, color .15s ease;
+}
+
+.segmented button.active,
+.segmented button:hover{
+  background:var(--brand);
+  color:#fff;
+}
+
+/* ---------- KPI grid (reused for team + LOB snapshot) ---------- */
+
+.kpi-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:12px;
+  margin-top:16px;
+}
+
+.kpi{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-top:3px solid var(--accent,var(--brand));
+  border-radius:10px;
+  padding:16px;
+}
+
+.kpi.green{ --accent:var(--good); }
+.kpi.orange{ --accent:var(--warn); }
+.kpi.red{ --accent:var(--bad); }
+
+.kpi-title{
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+
+.kpi-value{
+  font-family:var(--font-mono);
+  font-weight:600;
+  font-size:26px;
+  margin-top:8px;
+  color:var(--ink);
+  font-variant-numeric:tabular-nums;
+}
+
+.kpi-value:empty::after{ content:"—"; color:var(--line-strong); }
+
+/* ---------- Chart ---------- */
+
+.chart-box{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:20px 20px 8px;
+}
+
+svg{ width:100%; height:300px; display:block; font-family:var(--font-mono); }
+
+/* ---------- Filters ---------- */
+
+.filters{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
+}
+
+select{
+  padding:9px 12px;
+  border-radius:8px;
+  border:1px solid var(--line-strong);
+  background:#fff;
+  font-family:var(--font-body);
+  font-size:13px;
+  color:var(--ink);
+}
+
+/* ---------- Table ---------- */
+
+.table-scroll{
+  overflow-x:auto;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  background:#fff;
+}
+
+table{
+  width:100%;
+  min-width:760px;
+  border-collapse:collapse;
+}
+
+thead th{
+  position:sticky;
+  top:0;
+  background:var(--ink);
+  color:#EDEFF3;
+  padding:12px 14px;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+  text-align:center;
+  cursor:pointer;
+  user-select:none;
+  white-space:nowrap;
+}
+
+thead th:hover{ background:#1A2536; }
+
+td{
+  padding:11px 14px;
+  border-bottom:1px solid var(--line);
+  font-size:13px;
+  text-align:center;
+  font-variant-numeric:tabular-nums;
+}
+
+td:nth-child(2){ text-align:left; font-weight:600; font-family:var(--font-body); }
+
+tbody tr:nth-child(even){ background:#FAFBFC; }
+tbody tr:hover{ background:var(--brand-soft); }
+
+.positive{ color:var(--good); font-weight:700; font-family:var(--font-mono); }
+.negative{ color:var(--bad); font-weight:700; font-family:var(--font-mono); }
+
+.badge{
+  display:inline-block;
+  padding:4px 10px;
+  border-radius:999px;
+  font-size:11px;
+  font-weight:700;
+  border:1px solid transparent;
+}
+.badge.success{ background:var(--good-soft); color:var(--good); border-color:rgba(15,123,78,.25); }
+.badge.warning{ background:var(--warn-soft); color:var(--warn); border-color:rgba(180,101,10,.25); }
+
+.top-performer{ background:var(--good-soft) !important; box-shadow:inset 3px 0 0 var(--good); }
+.largest-decline{ background:var(--bad-soft) !important; box-shadow:inset 3px 0 0 var(--bad); }
+.on-intimation{ background:var(--violet-soft) !important; box-shadow:inset 3px 0 0 var(--violet); }
+
+/* ---------- Side by side mini tables ---------- */
+
+.side-by-side{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+@media (max-width:768px){ .side-by-side{ grid-template-columns:1fr; } }
+
+.mini-table table{ min-width:0; }
+.mini-table th{ position:static; }
+
+/* ---------- Risk / issue cards ---------- */
+
+.open-items-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:14px;
+}
+
+.issue{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:16px 18px;
+}
+
+.issue .chip{
+  display:inline-block;
+  font-family:var(--font-mono);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.05em;
+  padding:3px 8px;
+  border-radius:6px;
+  margin-bottom:8px;
+}
+
+.issue.high .chip{ background:var(--bad-soft); color:var(--bad); }
+.issue.medium .chip{ background:var(--warn-soft); color:var(--warn); }
+.issue.low .chip{ background:var(--good-soft); color:var(--good); }
+
+.issue h3{ margin:0 0 6px; font-size:14.5px; font-family:var(--font-display); font-weight:700; }
+.issue p{ margin:0; font-size:13px; line-height:1.55; color:#26303D; }
+
+/* ---------- Footer ---------- */
+
+footer{
+  text-align:center;
+  padding:28px 20px 34px;
+  color:var(--ink-soft);
+  font-size:12px;
+  font-family:var(--font-mono);
+  border-top:1px solid var(--line);
+  margin-top:20px;
+}
+
+/* ---------- Executive summary ---------- */
+
+.exec-summary{
+  max-width:1200px;
+  margin:18px auto 0;
+  padding:0 24px;
+}
+
+.exec-card{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-left:4px solid var(--brand);
+  border-radius:10px;
+  padding:18px 22px;
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+
+.exec-text{
+  flex:1 1 420px;
+}
+
+.exec-text .eyebrow{
+  font-family:var(--font-mono);
+  font-size:10.5px;
+  font-weight:700;
+  letter-spacing:.08em;
+  color:var(--brand);
+  text-transform:uppercase;
+}
+
+.exec-text p{
+  margin:6px 0 0;
+  font-size:14.5px;
+  line-height:1.6;
+  color:#26303D;
+  max-width:70ch;
+}
+
+.exec-text b{ color:var(--ink); }
+
+.status-chip{
+  font-family:var(--font-mono);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.04em;
+  padding:6px 12px;
+  border-radius:999px;
+  white-space:nowrap;
+  border:1px solid;
+}
+.status-chip.amber{ background:var(--warn-soft); color:var(--warn); border-color:rgba(180,101,10,.3); }
+.status-chip.green{ background:var(--good-soft); color:var(--good); border-color:rgba(15,123,78,.3); }
+
+/* ---------- WoW trend chips on scorecards ---------- */
+
+.trend-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:3px;
+  font-family:var(--font-mono);
+  font-size:11px;
+  font-weight:700;
+  margin-top:6px;
+}
+.trend-chip.up{ color:var(--good); }
+.trend-chip.down{ color:var(--bad); }
+
+/* ---------- Print ---------- */
+
+@media print{
+  body{ background:#fff; }
+  .masthead{ background:#fff !important; color:var(--ink) !important; border-bottom:2px solid var(--ink); }
+  .masthead-titles p{ color:var(--ink-soft) !important; }
+  .period-pill{ background:#fff !important; color:var(--ink) !important; border-color:var(--ink) !important; }
+  thead th{ position:static !important; background:#EEF1F5 !important; color:var(--ink) !important; }
+  .segmented, .filters{ display:none !important; }
+  .card, .kpi, .scorecard, .notice, .issue, .exec-card{ break-inside:avoid; }
+  .table-scroll{ overflow:visible !important; }
+  .no-print{ display:none !important; }
+  .page-watermark{ display:none !important; }
+}
+
+/* ---------- Watermark ---------- */
+
+.page-watermark{
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:560px;
+  height:560px;
+  transform:translate(-50%,-50%);
+  background:url('data:image/png;base64,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') center/contain no-repeat;
+  opacity:.035;
+  filter:grayscale(1);
+  pointer-events:none;
+  z-index:0;
+}
+
+.masthead, .exec-summary, .scorecard-strip, .container, footer{
+  position:relative;
+  z-index:1;
+}
+
+/* ---------- Print / PDF button ---------- */
+
+.print-btn{
+  font-family:var(--font-body);
+  font-size:12.5px;
+  font-weight:600;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.25);
+  color:#fff;
+  padding:8px 14px;
+  border-radius:8px;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  transition:background .15s ease;
+  white-space:nowrap;
+}
+.print-btn:hover{ background:rgba(255,255,255,.2); }
+
+.masthead-actions{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page-watermark"></div>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-brand">
+      <div class="masthead-titles">
+        <h1>Weekly Business Review</h1>
+        <p>Ops Command Center · Sample Report</p>
+      </div>
+    </div>
+    <div class="masthead-actions">
+      <button class="print-btn no-print" onclick="window.print()">🖨 Print / Save as PDF</button>
+      <div class="period-pill" id="periodPill"></div>
+    </div>
+  </div>
+</div>
+
+<div class="exec-summary">
+  <div class="exec-card">
+    <div class="exec-text">
+      <div class="eyebrow" id="execEyebrow"></div>
+      <p id="execSummaryText"></p>
+    </div>
+    <div class="status-chip" id="statusChip"></div>
+  </div>
+</div>
+
+<div class="scorecard-strip" id="scorecardStrip"></div>
+
+<div class="container">
+
+  <div class="section-header">
+    <h2 class="section-title">LOB Performance Dashboard</h2>
+  </div>
+
+  <div class="notice-grid" id="noticeGrid"></div>
+
+  <div class="card" style="margin-top:22px;">
+    <h3>Weekly Highlights</h3>
+    <ul class="checklist" id="highlightsList"></ul>
+  </div>
+
+  <div class="section-header" style="margin-bottom:2px;">
+    <h2 class="section-title">Team Performance View</h2>
+    <div class="segmented">
+      <button class="active" onclick="loadTeam('all',this)">All Teams</button>
+      <button onclick="loadTeam('pi',this)">PI Team</button>
+      <button onclick="loadTeam('processing',this)">Processing Team</button>
+    </div>
+  </div>
+  <p id="teamScopeNote" style="margin:0 0 16px;font-size:12px;color:var(--ink-soft);font-family:var(--font-mono);"></p>
+
+  <div class="kpi-grid">
+    <div class="kpi green">
+      <div class="kpi-title">Orders</div>
+      <div id="orders" class="kpi-value"></div>
+    </div>
+    <div class="kpi green">
+      <div class="kpi-title">Productivity</div>
+      <div id="productivity" class="kpi-value"></div>
+    </div>
+    <div class="kpi green">
+      <div class="kpi-title">Client Error %</div>
+      <div id="error" class="kpi-value"></div>
+    </div>
+    <div class="kpi orange">
+      <div class="kpi-title">SA%</div>
+      <div id="sa" class="kpi-value"></div>
+    </div>
+    <div class="kpi green">
+      <div class="kpi-title">Approved HC</div>
+      <div id="approvedHC" class="kpi-value"></div>
+    </div>
+    <div class="kpi green">
+      <div class="kpi-title">Deployed HC</div>
+      <div id="deployedHC" class="kpi-value"></div>
+    </div>
+  </div>
+
+  <div class="section-header">
+    <h2 class="section-title">Volume Trend</h2>
+    <span class="section-sub" id="chartSub"></span>
+  </div>
+
+  <div class="chart-box">
+    <svg id="volumeChart" viewBox="0 0 640 300"></svg>
+  </div>
+
+  <div class="section-header">
+    <h2 class="section-title">Weekly Performance Summary</h2>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi green">
+      <div class="kpi-title">Most Improved TM</div>
+      <div id="topImprovedName" class="kpi-value" style="font-size:16px;font-family:var(--font-body);"></div>
+      <div id="topImprovedValue" class="positive" style="margin-top:4px;font-size:15px;"></div>
+    </div>
+    <div class="kpi red">
+      <div class="kpi-title">Largest Decline</div>
+      <div id="largestDeclineName" class="kpi-value" style="font-size:16px;font-family:var(--font-body);"></div>
+      <div id="largestDeclineValue" class="negative" style="margin-top:4px;font-size:15px;"></div>
+    </div>
+    <div class="kpi green">
+      <div class="kpi-title">Improved Agents</div>
+      <div id="improvedCount" class="kpi-value"></div>
+    </div>
+    <div class="kpi orange">
+      <div class="kpi-title">Declined Agents</div>
+      <div id="declinedCount" class="kpi-value"></div>
+    </div>
+  </div>
+
+  <div class="section-header">
+    <h2 class="section-title">Weekly Team Member Improvement Tracker</h2>
+  </div>
+
+  <div class="filters">
+    <select id="supervisorFilter" onchange="applyFilters()"></select>
+    <select id="lobFilter" onchange="applyFilters()"></select>
+    <select id="statusFilter" onchange="applyFilters()">
+      <option value="all">All Agents</option>
+      <option value="improved">Improved Only</option>
+      <option value="declined">Declined Only</option>
+    </select>
+  </div>
+
+  <h3 style="font-family:var(--font-display);font-size:14px;margin:0 0 10px;color:var(--ink-soft);">LOB Performance Snapshot</h3>
+
+  <div class="kpi-grid" style="margin-bottom:20px;">
+    <div class="kpi green">
+      <div class="kpi-title">PI Agents</div>
+      <div id="piAgentCount" class="kpi-value"></div>
+    </div>
+    <div class="kpi green">
+      <div class="kpi-title">PI Avg Productivity</div>
+      <div id="piAvgProd" class="kpi-value"></div>
+    </div>
+    <div class="kpi orange">
+      <div class="kpi-title">Processing Agents</div>
+      <div id="procAgentCount" class="kpi-value"></div>
+    </div>
+    <div class="kpi orange">
+      <div class="kpi-title">Processing Avg Productivity</div>
+      <div id="procAvgProd" class="kpi-value"></div>
+    </div>
+  </div>
+
+  <div class="table-scroll">
+    <table id="improvementTable">
+      <thead>
+        <tr>
+          <th onclick="sortTable(0)">LOB ▲▼</th>
+          <th onclick="sortTable(1)">Agent ▲▼</th>
+          <th onclick="sortTable(2)">Supervisor ▲▼</th>
+          <th onclick="sortTable(3)" id="thPrev">▲▼</th>
+          <th onclick="sortTable(4)" id="thCurr">▲▼</th>
+          <th onclick="sortTable(5)">Improvement ▲▼</th>
+          <th onclick="sortTable(6)">SA% ▲▼</th>
+          <th onclick="sortTable(7)">Status ▲▼</th>
+        </tr>
+      </thead>
+      <tbody id="agentTableBody"></tbody>
+    </table>
+  </div>
+
+  <div class="side-by-side" style="margin-top:32px;">
+    <div>
+      <h2 class="section-title" style="font-size:16px;margin-bottom:10px;">Quality Focus Agents</h2>
+      <div class="table-scroll mini-table">
+        <table>
+          <tr><th>Agent</th><th>MTD QA</th></tr>
+          <tbody id="qualityFocusBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h2 class="section-title" style="font-size:16px;margin-bottom:10px;">Agents on Intimation</h2>
+      <div class="table-scroll mini-table">
+        <table>
+          <tr><th>Agent</th><th>Last Working Date</th></tr>
+          <tbody id="intimationBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-header">
+    <h2 class="section-title">Key Risks &amp; Focus Areas</h2>
+  </div>
+
+  <div class="open-items-grid" id="risksGrid"></div>
+
+</div>
+
+<footer id="footerText"></footer>
+
+<script>
+
+/* ============================================================
+   WEEK_DATA — the single source of truth for this report.
+   To update for a new week, edit ONLY this object.
+   Every section of the page (scorecards, chart, table,
+   filters, mini-tables, risk cards, footer) renders from it,
+   so the layout will not break as long as the shape below
+   (field names / array-of-objects structure) stays the same.
+   ============================================================ */
+
+const WEEK_DATA = {
+
+  period: {
+    pill: "SAMPLE DATA · WEEK 2 · AUG 10–21",
+    weekLabel: "Week 2 (Sample)",
+    prevRangeShort: "08/10-08/14",   // previous week, table column header
+    currRangeShort: "08/17-08/21",   // current week, table column header
+    prevRangeDash: "08/10\u201308/14",
+    currRangeDash: "08/17\u201308/21",
+    mtdPriorLabel: "Prior MTD",
+    mtdCurrentLabel: "Current MTD"
+  },
+
+  // Top-of-page scorecard strip (period-to-date figures)
+  scorecards: {
+    orders: 15800,
+    productivity: 79.20,
+    errorPct: 0.15,
+    sa: 92.50,
+    deployedHC: 19
+  },
+
+  // Narrative — the human-judgment part of the report. Edit freely each week.
+  narrative: {
+    statusChip: { label: "⚠ VOLUME — MONITOR", tone: "amber" },
+    execTail: "Client Error % held at 0.15%, within target. Recommend monitoring PI volume against staffing plan; no action needed on quality or SLA.",
+    keyWin: "Client Error % remained below target and operational accuracy remained stable.",
+    productivityNote: "PI productivity remains above goal with Agent A and Agent B leading performance.",
+    focusArea: "Continue QA coaching for Agent O, Agent P, Agent R, and Agent M due to elevated QA defects.",
+    highlights: [
+      "Client Error % maintained at 0.15%.",
+      "PI SA improved to 93.40%.",
+      "Processing SA improved to 98.50%.",
+      "Agent A led PI Avg at 145.20."
+    ]
+  },
+
+  // Team toggle (All / PI / Processing) — chart is [mtdPrior, weekPrev, weekCurr, mtdCurrent]
+  teams: {
+    all:        { orders: 15800, productivity: 79.20, error: 0.15, sa: 92.50, approvedHC: 16, deployedHC: 19, chart: [17300, 6400, 5300, 15800] },
+    pi:         { orders: 14000, productivity: 84.10, error: 0.16, sa: 91.80, approvedHC: 16, deployedHC: 16, chart: [15400, 6300, 4800, 14000] },
+    processing: { orders: 1800,  productivity: 41.50, error: 0.06, sa: 98.50, approvedHC: 2,  deployedHC: 3,  chart: [1900, 650, 500, 1800] }
+  },
+
+  // One row per agent. prevWeek/currWeek are productivity for that week.
+  agents: [
+    { lob:"PI", name:"Agent A",  supervisor:"Supervisor A", prevWeek:138.00, currWeek:145.20, sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent B",  supervisor:"Supervisor A", prevWeek:108.50, currWeek:126.40, sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent C",  supervisor:"Supervisor A", prevWeek:112.00, currWeek:110.75, sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent D",  supervisor:"Supervisor A", prevWeek:86.40,  currWeek:104.20, sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent E",  supervisor:"Supervisor A", prevWeek:89.80,  currWeek:94.50,  sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent F",  supervisor:"Supervisor A", prevWeek:75.20,  currWeek:71.00,  sa:92.00,  intimation:true  },
+    { lob:"PI", name:"Agent G",  supervisor:"Supervisor A", prevWeek:104.60, currWeek:112.30, sa:100.00, intimation:true  },
+    { lob:"PI", name:"Agent H",  supervisor:"Supervisor A", prevWeek:54.40,  currWeek:65.75,  sa:95.00,  intimation:true  },
+    { lob:"Processing", name:"Agent I", supervisor:"Supervisor A", prevWeek:48.60, currWeek:46.50, sa:95.00, intimation:true },
+    { lob:"Processing", name:"Agent J", supervisor:"Supervisor B", prevWeek:35.80, currWeek:32.75, sa:100.00, intimation:false },
+    { lob:"Processing", name:"Agent K", supervisor:"Supervisor A", prevWeek:49.40, currWeek:46.50, sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent L",  supervisor:"Supervisor B", prevWeek:68.40, currWeek:76.75, sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent M",  supervisor:"Supervisor B", prevWeek:64.60, currWeek:84.00, sa:92.00,  intimation:false },
+    { lob:"PI", name:"Agent N",  supervisor:"Supervisor B", prevWeek:50.20, currWeek:53.75, sa:100.00, intimation:false },
+    { lob:"PI", name:"Agent O",  supervisor:"Supervisor B", prevWeek:52.80, currWeek:49.67, sa:85.00,  intimation:false },
+    { lob:"PI", name:"Agent P",  supervisor:"Supervisor B", prevWeek:75.00, currWeek:52.00, sa:74.00,  intimation:false },
+    { lob:"PI", name:"Agent Q",  supervisor:"Supervisor B", prevWeek:41.00, currWeek:52.75, sa:87.00,  intimation:false },
+    { lob:"PI", name:"Agent R",  supervisor:"Supervisor B", prevWeek:40.80, currWeek:22.00, sa:68.00,  intimation:false },
+    { lob:"PI", name:"Agent S",  supervisor:"Supervisor B", prevWeek:26.00, currWeek:50.50, sa:84.00,  intimation:false }
+  ],
+
+  qualityFocus: [
+    { agent:"Agent O", qa:3.40 },
+    { agent:"Agent P", qa:2.10 },
+    { agent:"Agent R", qa:5.80 },
+    { agent:"Agent M", qa:3.30 },
+    { agent:"Agent N", qa:2.60 },
+    { agent:"Agent Q", qa:2.20 }
+  ],
+
+  intimation: [
+    { agent:"Agent F", lastDay:"04 Sep 2026" },
+    { agent:"Agent G", lastDay:"05 Sep 2026" },
+    { agent:"Agent H", lastDay:"04 Sep 2026" },
+    { agent:"Agent I", lastDay:"14 Sep 2026" }
+  ],
+
+  risks: [
+    { tone:"medium", icon:"🟡", title:"Processing Quality", text:"Focus required on Agent O, Agent P, Agent R and Agent M due to elevated QA defects." },
+    { tone:"medium", icon:"🟡", title:"Volume Trend", text:"PI volume movement should be monitored closely against forecast and staffing plans." },
+    { tone:"low", icon:"🟢", title:"Operational Stability", text:"Client Error % remains within target and service level performance remains stable." }
+  ]
+
+};
+
+/* ============================================================
+   RENDERING — reads WEEK_DATA and builds the page.
+   Nothing below this line needs to change week to week.
+   ============================================================ */
+
+function fmtInt(n){ return Math.round(n).toLocaleString(); }
+function fmtPct(n){ return n.toFixed(2) + "%"; }
+
+function renderDashboard(){
+
+  const d = WEEK_DATA;
+
+  // Masthead
+  document.getElementById("periodPill").textContent = d.period.pill;
+  document.title = "WBR Command Center — " + d.period.weekLabel;
+
+  // Exec summary (arrow/pct filled after table renders, see calculateWoWSummary)
+  document.getElementById("execEyebrow").textContent = "Executive Summary — " + d.period.weekLabel;
+  document.getElementById("statusChip").textContent = d.narrative.statusChip.label;
+  document.getElementById("statusChip").className = "status-chip " + d.narrative.statusChip.tone;
+
+  // Scorecard strip
+  const scCfg = [
+    { key:"orders",       label:"Orders",       fmt:v=>fmtInt(v),  accent:"var(--brand)", chip:"ordersTrendChip" },
+    { key:"productivity", label:"Productivity", fmt:v=>v.toFixed(2), accent:"var(--good)", chip:"prodTrendChip" },
+    { key:"errorPct",     label:"Error %",      fmt:v=>fmtPct(v),  accent:"var(--good)" },
+    { key:"sa",           label:"SA%",          fmt:v=>fmtPct(v),  accent:"var(--warn)" },
+    { key:"deployedHC",   label:"Deployed HC",  fmt:v=>fmtInt(v),  accent:"var(--brand)" }
+  ];
+  const strip = document.getElementById("scorecardStrip");
+  strip.innerHTML = scCfg.map(c => `
+    <div class="scorecard" style="--accent:${c.accent}">
+      <div class="label">${c.label}</div>
+      <div class="value">${c.fmt(d.scorecards[c.key])}</div>
+      ${c.chip ? `<div id="${c.chip}" class="trend-chip"></div>` : ""}
+    </div>
+  `).join("");
+
+  // Notice grid
+  document.getElementById("noticeGrid").innerHTML = `
+    <div class="notice good">
+      <span class="tag">WIN</span>
+      <div><strong>Key Win</strong><p>${d.narrative.keyWin}</p></div>
+    </div>
+    <div class="notice good">
+      <span class="tag">TREND</span>
+      <div><strong>Productivity</strong><p>${d.narrative.productivityNote}</p></div>
+    </div>
+    <div class="notice warn">
+      <span class="tag">FOCUS</span>
+      <div><strong>Focus Area</strong><p>${d.narrative.focusArea}</p></div>
+    </div>
+  `;
+
+  // Highlights checklist
+  document.getElementById("highlightsList").innerHTML =
+    d.narrative.highlights.map(h => `<li>${h}</li>`).join("");
+
+  // Team scope note + chart subtitle
+  document.getElementById("teamScopeNote").textContent =
+    `CURRENT WEEK (${d.period.currRangeShort}) · BY LINE OF BUSINESS — scorecards above are ${d.period.mtdCurrentLabel}, period-to-date`;
+  document.getElementById("chartSub").textContent =
+    `${d.period.mtdPriorLabel} · ${d.period.prevRangeDash} · ${d.period.currRangeDash} · ${d.period.mtdCurrentLabel}`;
+
+  // Table header date columns
+  document.getElementById("thPrev").textContent = d.period.prevRangeShort + " ▲▼";
+  document.getElementById("thCurr").textContent = d.period.currRangeShort + " ▲▼";
+
+  // Filter dropdowns — built from whatever supervisors/LOBs actually appear this week
+  const supervisors = [...new Set(d.agents.map(a => a.supervisor))];
+  const lobs = [...new Set(d.agents.map(a => a.lob))];
+  document.getElementById("supervisorFilter").innerHTML =
+    `<option value="all">All Supervisors</option>` +
+    supervisors.map(s => `<option value="${s}">${s}</option>`).join("");
+  document.getElementById("lobFilter").innerHTML =
+    `<option value="all">All LOBs</option>` +
+    lobs.map(l => `<option value="${l}">${l}</option>`).join("");
+
+  // Agent table
+  const tbody = document.getElementById("agentTableBody");
+  tbody.innerHTML = d.agents.map(a => `
+    <tr class="${a.intimation ? "on-intimation" : ""}" data-supervisor="${a.supervisor}" data-lob="${a.lob}">
+      <td>${a.lob}</td>
+      <td>${a.name}</td>
+      <td>${a.supervisor}</td>
+      <td>${a.prevWeek.toFixed(2)}</td>
+      <td>${a.currWeek.toFixed(2)}</td>
+      <td></td>
+      <td>${a.sa.toFixed(2)}%</td>
+      <td></td>
+    </tr>
+  `).join("");
+
+  // Quality focus / intimation mini tables
+  document.getElementById("qualityFocusBody").innerHTML =
+    d.qualityFocus.map(q => `<tr><td style="text-align:left;font-weight:600;">${q.agent}</td><td>${q.qa.toFixed(2)}%</td></tr>`).join("");
+  document.getElementById("intimationBody").innerHTML =
+    d.intimation.map(i => `<tr><td style="text-align:left;font-weight:600;">${i.agent}</td><td>${i.lastDay}</td></tr>`).join("");
+
+  // Risk cards
+  document.getElementById("risksGrid").innerHTML = d.risks.map(r => `
+    <div class="issue ${r.tone}">
+      <span class="chip">${r.tone.toUpperCase()}</span>
+      <h3>${r.icon} ${r.title}</h3>
+      <p>${r.text}</p>
+    </div>
+  `).join("");
+
+  // Footer
+  document.getElementById("footerText").textContent =
+    `SAMPLE REPORT · WBR COMMAND CENTER · ${d.period.weekLabel.toUpperCase()}`;
+
+  // Default team view
+  loadTeam("all");
+}
+
+function loadTeam(team, btn){
+  const t = WEEK_DATA.teams[team];
+  document.getElementById("orders").textContent = fmtInt(t.orders);
+  document.getElementById("productivity").textContent = t.productivity.toFixed(2);
+  document.getElementById("error").textContent = fmtPct(t.error);
+  document.getElementById("sa").textContent = fmtPct(t.sa);
+  document.getElementById("approvedHC").textContent = t.approvedHC;
+  document.getElementById("deployedHC").textContent = t.deployedHC;
+  drawChart(t.chart);
+
+  if (btn) {
+    document.querySelectorAll(".segmented button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+  } else {
+    document.querySelectorAll(".segmented button")[0].classList.add("active");
+  }
+}
+
+function drawChart(data){
+  const svg = document.getElementById("volumeChart");
+  svg.innerHTML = "";
+  const ns = "http://www.w3.org/2000/svg";
+  const d = WEEK_DATA;
+
+  const labels = [d.period.mtdPriorLabel, d.period.currRangeDash === undefined ? "" : d.period.prevRangeDash, d.period.currRangeDash, d.period.mtdCurrentLabel];
+  const W = 640, H = 300;
+  const plotTop = 24, plotBottom = 235, axisY = plotBottom;
+  const plotHeight = plotBottom - plotTop;
+  const max = Math.max(...data) * 1.15;
+
+  const defs = document.createElementNS(ns,"defs");
+  const grad = document.createElementNS(ns,"linearGradient");
+  grad.setAttribute("id","barGradient");
+  grad.setAttribute("x1","0%"); grad.setAttribute("y1","0%");
+  grad.setAttribute("x2","0%"); grad.setAttribute("y2","100%");
+  const s1 = document.createElementNS(ns,"stop");
+  s1.setAttribute("offset","0%"); s1.setAttribute("stop-color","#1D6FB8");
+  const s2 = document.createElementNS(ns,"stop");
+  s2.setAttribute("offset","100%"); s2.setAttribute("stop-color","#0A4C8C");
+  grad.appendChild(s1); grad.appendChild(s2);
+  defs.appendChild(grad);
+  svg.appendChild(defs);
+
+  const gridSteps = 4;
+  for(let g=0; g<=gridSteps; g++){
+    const y = plotTop + (plotHeight/gridSteps)*g;
+    const line = document.createElementNS(ns,"line");
+    line.setAttribute("x1",50); line.setAttribute("x2",W-20);
+    line.setAttribute("y1",y); line.setAttribute("y2",y);
+    line.setAttribute("stroke","#E3E6EB");
+    line.setAttribute("stroke-width","1");
+    svg.appendChild(line);
+
+    const val = Math.round(max - (max/gridSteps)*g);
+    const t = document.createElementNS(ns,"text");
+    t.setAttribute("x",44); t.setAttribute("y",y+4);
+    t.setAttribute("font-size","10.5");
+    t.setAttribute("text-anchor","end");
+    t.setAttribute("fill","#9AA3AF");
+    t.textContent = val.toLocaleString();
+    svg.appendChild(t);
+  }
+
+  const barW = 74;
+  const gap = (W - 70 - barW*data.length) / (data.length - 1 + 1.4);
+  let x = 60;
+
+  for(let i=0;i<data.length;i++){
+    const h = (data[i]/max) * plotHeight;
+    const y = axisY - h;
+
+    const rect = document.createElementNS(ns,"rect");
+    rect.setAttribute("x",x);
+    rect.setAttribute("y",y);
+    rect.setAttribute("width",barW);
+    rect.setAttribute("height",h);
+    rect.setAttribute("rx","4");
+    rect.setAttribute("fill", i === data.length-1 ? "#0F7B4E" : "url(#barGradient)");
+    svg.appendChild(rect);
+
+    const value = document.createElementNS(ns,"text");
+    value.setAttribute("x", x + barW/2);
+    value.setAttribute("y", y - 8);
+    value.setAttribute("font-size","13");
+    value.setAttribute("font-weight","600");
+    value.setAttribute("text-anchor","middle");
+    value.setAttribute("fill","#0B1220");
+    value.textContent = data[i].toLocaleString();
+    svg.appendChild(value);
+
+    const label = document.createElementNS(ns,"text");
+    label.setAttribute("x", x + barW/2);
+    label.setAttribute("y", axisY + 20);
+    label.setAttribute("font-size","11.5");
+    label.setAttribute("font-weight","600");
+    label.setAttribute("text-anchor","middle");
+    label.setAttribute("fill","#5B6472");
+    label.textContent = labels[i];
+    svg.appendChild(label);
+
+    x += barW + gap;
+  }
+
+  const axis = document.createElementNS(ns,"line");
+  axis.setAttribute("x1",50); axis.setAttribute("x2",W-20);
+  axis.setAttribute("y1",axisY); axis.setAttribute("y2",axisY);
+  axis.setAttribute("stroke","#CBD1DA");
+  axis.setAttribute("stroke-width","1.5");
+  svg.appendChild(axis);
+}
+
+let sortDirections = {};
+
+function sortTable(col){
+  const table = document.getElementById("improvementTable");
+  const tbody = table.querySelector("tbody");
+  const rows = Array.from(tbody.rows);
+  sortDirections[col] = !sortDirections[col];
+
+  rows.sort((a,b)=>{
+    let x = a.cells[col].innerText.replace("+","");
+    let y = b.cells[col].innerText.replace("+","");
+    if(!isNaN(x) && !isNaN(y) && x!=="" && y!==""){
+      x = parseFloat(x); y = parseFloat(y);
+    }
+    if(sortDirections[col]) return x>y ? 1 : -1;
+    return x<y ? 1 : -1;
+  });
+
+  rows.forEach(row=>tbody.appendChild(row));
+}
+
+function applyFilters(){
+  const supervisor = document.getElementById("supervisorFilter").value;
+  const lob = document.getElementById("lobFilter").value;
+  const status = document.getElementById("statusFilter").value;
+  const rows = document.querySelectorAll("#improvementTable tbody tr");
+
+  rows.forEach(row=>{
+    let show = true;
+    const rowSupervisor = row.dataset.supervisor;
+    const rowLOB = row.dataset.lob;
+    const change = parseFloat(row.cells[5].innerText.replace("+",""));
+
+    if(supervisor !== "all" && rowSupervisor !== supervisor) show = false;
+    if(lob !== "all" && rowLOB !== lob) show = false;
+    if(status === "improved" && change <= 0) show = false;
+    if(status === "declined" && change >= 0) show = false;
+
+    row.style.display = show ? "" : "none";
+  });
+}
+
+function calculateLOBSummary(){
+  const rows = document.querySelectorAll("#improvementTable tbody tr");
+  let piCount=0, piTotal=0, procCount=0, procTotal=0;
+
+  rows.forEach(row=>{
+    const lob = row.dataset.lob;
+    const productivity = parseFloat(row.cells[4].innerText);
+    if(lob==="PI"){ piCount++; piTotal += productivity; }
+    if(lob==="Processing"){ procCount++; procTotal += productivity; }
+  });
+
+  document.getElementById("piAgentCount").innerText = piCount;
+  document.getElementById("piAvgProd").innerText = piCount>0 ? (piTotal/piCount).toFixed(2) : "0";
+  document.getElementById("procAgentCount").innerText = procCount;
+  document.getElementById("procAvgProd").innerText = procCount>0 ? (procTotal/procCount).toFixed(2) : "0";
+}
+
+function calculateRowPerformance(){
+  const rows = document.querySelectorAll("#improvementTable tbody tr");
+
+  rows.forEach(row=>{
+    const previousWeek = parseFloat(row.cells[3].innerText);
+    const currentWeek = parseFloat(row.cells[4].innerText);
+    const variance = currentWeek - previousWeek;
+
+    row.cells[5].innerText = (variance>=0 ? "+" : "") + variance.toFixed(2);
+    row.cells[5].classList.remove("positive","negative");
+
+    if(variance>=0){
+      row.cells[5].classList.add("positive");
+      row.cells[7].innerHTML = '<span class="badge success">Improved</span>';
+    } else {
+      row.cells[5].classList.add("negative");
+      row.cells[7].innerHTML = '<span class="badge warning">Declined</span>';
+    }
+  });
+}
+
+function calculatePerformanceSummary(){
+  const rows = document.querySelectorAll("#improvementTable tbody tr");
+  let topImproved = null, largestDecline = null, improvedCount = 0, declinedCount = 0;
+
+  rows.forEach(row=>{
+    row.classList.remove("top-performer","largest-decline");
+    const agent = row.cells[1].innerText;
+    const change = parseFloat(row.cells[5].innerText.replace("+",""));
+
+    if(change>0) improvedCount++;
+    if(change<0) declinedCount++;
+
+    if(topImproved===null || change>topImproved.change){
+      topImproved = { name: agent, change: change, row: row };
+    }
+    if(largestDecline===null || change<largestDecline.change){
+      largestDecline = { name: agent, change: change, row: row };
+    }
+  });
+
+  document.getElementById("topImprovedName").innerText = topImproved.name;
+  document.getElementById("topImprovedValue").innerText = "+" + topImproved.change.toFixed(2);
+  document.getElementById("largestDeclineName").innerText = largestDecline.name;
+  document.getElementById("largestDeclineValue").innerText = largestDecline.change.toFixed(2);
+  document.getElementById("improvedCount").innerText = improvedCount;
+  document.getElementById("declinedCount").innerText = declinedCount;
+
+  topImproved.row.classList.add("top-performer");
+  largestDecline.row.classList.add("largest-decline");
+
+  topImproved.row.cells[7].innerHTML = '<span class="badge success">Top Improvement</span>';
+  largestDecline.row.cells[7].innerHTML = '<span class="badge warning">Largest Decline</span>';
+}
+
+function calculateWoWSummary(){
+  const d = WEEK_DATA;
+  const ordersW2 = d.teams.all.chart[1];
+  const ordersW3 = d.teams.all.chart[2];
+  const ordersDelta = ordersW3 - ordersW2;
+  const ordersPct = (ordersDelta / ordersW2) * 100;
+  const ordersUp = ordersDelta >= 0;
+
+  const ordersChip = document.getElementById("ordersTrendChip");
+  if (ordersChip) {
+    ordersChip.innerHTML = (ordersUp ? "▲ " : "▼ ") + Math.abs(ordersPct).toFixed(1) + "% WoW";
+    ordersChip.className = "trend-chip " + (ordersUp ? "up" : "down");
+  }
+
+  const rows = document.querySelectorAll("#improvementTable tbody tr");
+  let w2Total = 0, w3Total = 0, n = 0;
+  rows.forEach(row=>{
+    w2Total += parseFloat(row.cells[3].innerText);
+    w3Total += parseFloat(row.cells[4].innerText);
+    n++;
+  });
+  const w2Avg = w2Total / n;
+  const w3Avg = w3Total / n;
+  const prodPct = ((w3Avg - w2Avg) / w2Avg) * 100;
+  const prodUp = prodPct >= 0;
+
+  const prodChip = document.getElementById("prodTrendChip");
+  if (prodChip) {
+    prodChip.innerHTML = (prodUp ? "▲ " : "▼ ") + Math.abs(prodPct).toFixed(1) + "% WoW";
+    prodChip.className = "trend-chip " + (prodUp ? "up" : "down");
+  }
+
+  document.getElementById("execSummaryText").innerHTML =
+    `Order volume moved <b style="color:${ordersUp ? "var(--good)" : "var(--bad)"}">` +
+    `${ordersUp ? "up" : "down"} ${Math.abs(ordersPct).toFixed(1)}%</b> week-over-week ` +
+    `(${ordersW2.toLocaleString()} → ${ordersW3.toLocaleString()}), while team average productivity moved ` +
+    `<b style="color:${prodUp ? "var(--good)" : "var(--bad)"}">${prodUp ? "up" : "down"} ${Math.abs(prodPct).toFixed(1)}%</b> ` +
+    `(${w2Avg.toFixed(1)} → ${w3Avg.toFixed(1)} avg/agent). ${d.narrative.execTail}`;
+}
+
+// Build the page
+renderDashboard();
+calculateRowPerformance();
+calculatePerformanceSummary();
+calculateLOBSummary();
+calculateWoWSummary();
+
+</script>
+
+</body>
+</html>
