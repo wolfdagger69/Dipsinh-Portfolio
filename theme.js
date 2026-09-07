@@ -1,51 +1,53 @@
 /* ==========================================================
-   THEMES — named palettes, same token names as style.css
+   THEMES — named palettes for the "workspace" (everything below
+   the hero). The hero has its own fixed dark console look defined
+   directly in style.css, so it stays constant no matter which
+   theme is active here — that's deliberate.
    ==========================================================
-   Add a new theme by adding a new key below with all nine
-   color tokens filled in. Order here = order the toggle
-   button cycles through. The first entry is the default that
-   loads on first visit.
+   Add a new theme by adding a new key below with all color
+   tokens filled in. Order here = order the toggle button cycles
+   through. The first entry is the default that loads on first visit.
    ========================================================== */
 
 const themes = {
   paper: {
-    "--paper":     "#EFEDE1",
-    "--paper-2":   "#E6E2D2",
-    "--ink":       "#1E2A22",
-    "--ink-soft":  "#4B5A4E",
-    "--muted":     "#7C7A65",
-    "--line":      "#D6D0B9",
-    "--gold":      "#D9A441",
-    "--gold-soft": "#F0D9A6",
-    "--teal":      "#1F6F63",
-    "--teal-soft": "#BFE0D6",
-    "--coral":     "#D9603B",
+    "--paper":       "#EDF1EE",
+    "--paper-2":     "#E1E8E2",
+    "--ink":         "#101E1A",
+    "--ink-soft":    "#3E5750",
+    "--muted":       "#71847C",
+    "--line":        "#CBD8D0",
+    "--teal":        "#1FAE74",
+    "--teal-soft":   "#C9EEDD",
+    "--gold":        "#E0983A",
+    "--gold-soft":   "#F7E4C0",
+    "--coral":       "#4C6FFF",
   },
   slate: {
-    "--paper":     "#EEF1F1",
-    "--paper-2":   "#E2E7E7",
-    "--ink":       "#1B2426",
-    "--ink-soft":  "#47585B",
-    "--muted":     "#76898C",
-    "--line":      "#CBD6D7",
-    "--gold":      "#3D7A8A",
-    "--gold-soft": "#BFDCE3",
-    "--teal":      "#8A5A3D",
-    "--teal-soft": "#E3CEBF",
-    "--coral":     "#C24E3A",
+    "--paper":       "#EEF1F5",
+    "--paper-2":     "#E1E7EE",
+    "--ink":         "#12192A",
+    "--ink-soft":    "#47536A",
+    "--muted":       "#7C879C",
+    "--line":        "#CBD3E2",
+    "--teal":        "#2E86AB",
+    "--teal-soft":   "#C9E3EE",
+    "--gold":        "#E0793E",
+    "--gold-soft":   "#F6D9C4",
+    "--coral":       "#7C5CFF",
   },
   ink: {
-    "--paper":     "#1B1A17",
-    "--paper-2":   "#242220",
-    "--ink":       "#F3EFE6",
-    "--ink-soft":  "#C9C3B4",
-    "--muted":     "#8E897B",
-    "--line":      "#3A3733",
-    "--gold":      "#E3B15E",
-    "--gold-soft": "#4A3F2A",
-    "--teal":      "#5FBFAB",
-    "--teal-soft": "#22403A",
-    "--coral":     "#E37E5C",
+    "--paper":       "#0F1622",
+    "--paper-2":     "#182233",
+    "--ink":         "#EDF1F5",
+    "--ink-soft":    "#B9C4D2",
+    "--muted":       "#7C8AA0",
+    "--line":        "#29344A",
+    "--teal":        "#35D07F",
+    "--teal-soft":   "#173A2A",
+    "--gold":        "#F0B15C",
+    "--gold-soft":   "#4A3620",
+    "--coral":       "#7C93FF",
   },
 };
 

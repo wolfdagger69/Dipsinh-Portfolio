@@ -75,6 +75,50 @@ Clicking "View résumé" opens your PDF in an in-page modal (no new tab,
 no download prompt) — recruiters can preview it in one click. "Download
 résumé" still works as before for anyone who wants the file itself.
 
+## v4: redesign — "command center" hero, projects section, live résumé view
+
+**Why this look:** the old version used the generic "warm cream + serif +
+terracotta" combo that's become the default AI-generated portfolio look.
+The new one is built around who you actually are — someone who lives in
+KPI dashboards and built his own — so the hero looks like a live console
+(dark, grid lines, glowing status pill, mono-font stat tiles) and the rest
+of the site is calmer, like the printed report a director opens after.
+Type is **Space Grotesk** (headlines) + **Inter** (body) + **IBM Plex Mono**
+(dates, tags, stat numbers — the "data" typeface).
+
+**What changed**
+- **Hero is now visually distinct on purpose.** It uses its own fixed dark
+  palette (`--void`, `--signal`, etc. in `style.css`) instead of the
+  swappable theme tokens, so it always looks like its own space no matter
+  which of the three workspace themes (`paper` / `slate` / `ink`) is active.
+  It has an animated grid background, two drifting glow blobs, and a
+  cursor-following spotlight (desktop only).
+- **New Projects section** (`#projects`, nav link "Projects") — this is
+  where "self-built tools" like the WBR Command Center live now, as a
+  proper dashboard-tile card instead of one long unbroken paragraph, which
+  is what was making it render oversized and oddly shaped on phones. Add
+  more tools by adding objects to `siteContent.projects` in `content.js` —
+  keep `highlights` to short one-line bullets, not a paragraph, and the
+  card will stay a consistent size.
+  - **Update `demoUrl`** for the WBR Command Center project in `content.js`
+    — it's currently a placeholder (`"#"`). Point it at your live demo URL.
+- **Résumé viewer no longer embeds the PDF.** Mobile Chrome doesn't render
+  PDFs inside an iframe, which is why "View résumé" was popping up a blank
+  panel with nothing but a Download button. It now renders your résumé
+  as formatted HTML built live from the same data in `content.js` — so it
+  always shows up instantly, on any device, and the redundant Download
+  button inside the modal is gone (you already have one in the hero).
+- **Icons throughout** — section tags, timeline, skills, projects,
+  education, and contact cards all now have small inline icons (defined
+  once in the `ICONS` object at the top of `script.js`, referenced by name
+  from `content.js`, e.g. `icon: "users"`).
+- **Small motion, used deliberately, not everywhere:** a pulsing "live"
+  status dot on your current role and the hero pill, animated counters on
+  the hero stats, a subtle tilt on project/skill cards on hover, magnetic
+  buttons, active-section highlighting in the nav, and a back-to-top button.
+  All of it is disabled automatically for anyone with reduced-motion
+  preferences turned on.
+
 ## Updating your live site
 
 Your site already exists on GitHub (`Dipsinh-Portfolio` repo) and deploys via Netlify.
