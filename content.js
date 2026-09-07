@@ -28,7 +28,7 @@ const siteContent = {
 
   stats: [
     { value: "6+", label: "years in team leadership", icon: "users" },
-    { value: "3", label: "industries — BPO, manufacturing, B2B sales", icon: "layers" },
+    { value: "200+", label: "FTEs scaled from pilot batch, 2 processes", icon: "layers" },
     { value: "Next", label: "Senior Manager, client & operations leadership", icon: "target", target: true },
   ],
 
@@ -40,8 +40,9 @@ const siteContent = {
       icon: "users",
       current: true,
       bullets: [
-        "Lead and coach a team of customer experience professionals, setting performance goals and ensuring SLA adherence, productivity, and quality standards.",
-        "Conduct performance reviews and give constructive feedback, driving measurable improvements in productivity and customer satisfaction.",
+        "Took charge of 2 brand-new client processes from pilot batch through to a 200+ FTE operation, owning recruitment testing, quality audit/QC forms, and SOP documentation and training modules built from scratch off client guidelines.",
+        "Cut client escalations from 4% to 0.20% — well inside the client's ≤1.00% target — by designing and rolling out audit checkpoints, quality frameworks, and process SOPs for both processes.",
+        "Ran root-cause analysis on stalled CSAT, traced it to weak connect and objection-handling on calls, then coached the team live with real call examples — lifting CSAT from 79% to 86% and sales conversion from 11.50% to 15.20%.",
         "Manage day-to-day client interactions and resolve escalations promptly, strengthening long-term relationships.",
         "Monitor and analyze operational KPIs via dashboards to spot trends and bottlenecks, informing data-backed decisions for leadership.",
         "Drive continuous process improvement, standardizing workflows and leading change management across cross-functional teams.",
@@ -78,12 +79,12 @@ const siteContent = {
     {
       status: "Live",
       title: "WBR Command Center",
-      tagline: "Browser-based weekly business review dashboard",
-      description: "Every leader sits through WBR/QBR calls built on a static spreadsheet that's stale the moment it's shared. I used AI-assisted development to build a live, browser-based dashboard instead — one file, zero manual prep.",
+      tagline: "Ditched the spreadsheet. Built a live business review, instead.",
+      description: "Every leader has sat through the same WBR/QBR ritual — hours spent stitching together a spreadsheet or a deck that's already stale by the time it hits the screen. I used AI-assisted development to design and ship a live, browser-based command center instead: one self-contained HTML file that turns a half-day of manual prep into a single click, walk-in-and-run-the-call ready.",
       highlights: [
-        "Tracks orders, productivity, client error %, and SA% by line of business in real time",
-        "Auto-flags most-improved and most-declined team members",
-        "Surfaces quality-focus and attrition-risk agents",
+        "Tracks orders, productivity, client error %, and SA% by line of business — live, not last-updated-Tuesday",
+        "Auto-flags most-improved and most-declined team members, no manual scan required",
+        "Surfaces quality-focus and attrition-risk agents before they show up as a problem on the call",
         "Rolls into a print-ready view a director can run the call from cold",
       ],
       tags: ["HTML/CSS/JS", "No backend", "Self-directed", "AI-assisted"],
